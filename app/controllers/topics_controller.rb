@@ -3,6 +3,9 @@ class TopicsController < ApplicationController
 
   # GET /topics
   # GET /topics.json
+  def welcome
+  end
+
   def index
     @topics = Topic.all
   end
